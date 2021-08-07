@@ -6,7 +6,7 @@
           Robot Scavenger Hunt
         </p>
         <p class="subtitle">
-          Find all the robot before time runs out.
+          Find all the robots before time runs out.
         </p>
       </div>
     </section>
