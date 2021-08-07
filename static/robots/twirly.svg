@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59.856mm" height="44.892mm" fill="#000000" version="1.1" viewBox="0 0 135.74 101.8" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Robots - Solid - 002 - Wall E</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <title>Robots - Solid - 002 - Wall E</title>
+ <g transform="translate(16.624 16.886)" display="none">
+  <g transform="matrix(.72642 0 0 .72642 13.145 9.5033)" display="inline" fill="#ccc">
+   <rect x="-40.98" y="-36.327" width="186.86" height="140.14" fill="#ccc"/>
+  </g>
+ </g>
+ <g transform="translate(15.42 17.157)">
+  <g transform="matrix(1.0822 0 0 1.0822 19.981 1.2768)" fill="#000" stroke-width=".924">
+   <g fill="#000" stroke-width=".924">
+    <rect x="32" y="31" width="2" height="6"/>
+    <circle cx="22.5" cy="13.5" r="3.5"/>
+    <circle cx="37.5" cy="13.5" r="3.5"/>
+    <path d="m51 37h-2v-8a2 2 0 0 0-2-2h-5.13l0.49-4.51c3.74-1.49 5.64-4.14 5.64-7.99a11.4 11.4 0 0 0-0.36-2.84l2.79-4.45a2 2 0 0 0-0.29-2.48l-3.92-3.93a2 2 0 0 0-2.31-0.37l-4 2a21.06 21.06 0 0 0-9.91-2.43 21.06 21.06 0 0 0-9.95 2.41l-4-2a2 2 0 0 0-2.27 0.39l-3.92 3.93a2 2 0 0 0-0.29 2.48l2.79 4.45a11.4 11.4 0 0 0-0.36 2.84c0 3.85 1.9 6.54 5.64 8l0.49 4.5h-5.13a2 2 0 0 0-2 2v8h-2a2 2 0 0 0-2 2v1a5 5 0 0 0 5 5h3a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-2v-8h5.36l2.64 23.85-1.36 3.41a2 2 0 0 0 1.84 2.74h1.84a2 2 0 0 0 1.86-1.26l1.5-3.74h0.32v4a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-4h0.32l1.5 3.74a2 2 0 0 0 1.86 1.26h1.84a2 2 0 0 0 1.86-2.74l-1.38-3.41 2.64-23.85h5.36v8h-2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h3a5 5 0 0 0 5-5v-1a2 2 0 0 0-2-2zm-13.5-29a5.5 5.5 0 1 1-5.5 5.5 5.51 5.51 0 0 1 5.5-5.5zm-7.5 23a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2zm-7.5-23a5.5 5.5 0 1 1-5.5 5.5 5.51 5.51 0 0 1 5.5-5.5zm0.82 49h-1.84l1.2-3h1.84zm7.68 1h-2v-4h2zm5.68-1-1.2-3h1.84l1.2 3z"/>
+   </g>
+  </g>
+ </g>
+</svg>

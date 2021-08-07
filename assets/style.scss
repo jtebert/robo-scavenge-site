@@ -1,0 +1,39 @@
+@import "~bulma/sass/utilities/_all";
+
+.card-container {
+    display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+	grid-gap: 0.5em;
+}
+
+.card {
+    height: max-content;
+    transition: all 0.4s ease-in-out;
+    margin: .5em;
+    &:hover {
+        box-shadow: 0 0.5em .8em -0.125em rgba($scheme-invert, 0.3), 0 0px 0 1px rgba($scheme-invert, 0.02);
+    }
+}
+
+.title.is-1 {
+    font-size: 5em;
+    @include mobile {
+        font-size: 3em;
+      }
+}
+.subtitle {
+    font-size: 1.5em;
+}
+
+.title.is-biggest {
+    font-size: 4.5em !important;
+}
+.hero.is-primary {
+    background: rgb(0,105,139);
+    background: linear-gradient(135deg, rgba(0,105,139,1) 0%, rgba(0,203,163,1) 100%);
+    /* background-image: linear-gradient(141deg,#159dc6 0,#3298dc 71%,#4389e5 100%) */
+}
+
+.container p {
+    margin-bottom: 1em;
+}

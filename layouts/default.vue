@@ -1,74 +1,62 @@
 <template>
   <div>
-    <nav
-      class="navbar header has-shadow is-primary"
-      role="navigation"
-      aria-label="main navigation"
-    >
-      <div class="navbar-brand">
-        <a
-          class="navbar-item"
-          href="/"
-        >
-          <img
-            src="~assets/buefy.png"
-            alt="Buefy"
-            height="28"
-          >
-        </a>
-
-        <div class="navbar-burger">
-          <span />
-          <span />
-          <span />
-        </div>
-      </div>
-    </nav>
-
-    <section class="main-content columns">
-      <aside class="column is-2 section">
-        <p class="menu-label is-hidden-touch">
-          General
+    <section class="hero is-primary is-medium">
+      <div class="hero-body has-text-centered">
+        <p class="title is-1">
+          Robot Scavenger Hunt
         </p>
-        <ul class="menu-list">
-          <li
-            v-for="(item, key) of items"
-            :key="key"
-          >
-            <NuxtLink
-              :to="item.to"
-              exact-active-class="is-active"
-            >
-              <b-icon :icon="item.icon" /> {{ item.title }}
-            </NuxtLink>
-          </li>
-        </ul>
-      </aside>
-
-      <div class="container column is-10">
-        <Nuxt />
+        <p class="subtitle">
+          Find all the robot before time runs out.
+        </p>
       </div>
     </section>
+
+    <section class="main-content has-background-light	">
+      <div class="container is-max-desktop">
+        <section class="section">
+            <p class="title is-2 has-text-centered">The Challenge</p>
+
+            <p>See if you can find all of the robot decals hidden around the new Science and Engineering Complex. Unsurprisingly, they've concentrated themselves around the robotics labs on the fourth floor. New ones may be added soon!</p>
+
+            <p>Why do you want to find them all before time runs out? Who knows! No, seriously, I have no idea. Someone please tell me.</p>
+        </section>
+      </div>
+
+      <div class="container">
+        <Nuxt />
+
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Robot Scavenger Hunt</strong> by <a href="https://juliaebert.com">Julia Ebert</a>, a division of Teebert Industries
+        </p>
+        <p>&copy; 2021</p>
+      </div>
+    </footer>
+
   </div>
 </template>
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       items: [
         {
-          title: 'Home',
-          icon: 'home',
-          to: { name: 'index' }
+          title: "Home",
+          icon: "home",
+          to: { name: "index" },
         },
         {
-          title: 'Inspire',
-          icon: 'lightbulb',
-          to: { name: 'inspire' }
-        }
-      ]
-    }
-  }
-}
+          title: "Inspire",
+          icon: "lightbulb",
+          to: { name: "inspire" },
+        },
+      ],
+    };
+  },
+};
 </script>

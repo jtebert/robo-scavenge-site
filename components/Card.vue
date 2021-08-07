@@ -1,27 +1,18 @@
 <template>
-  <div class="column">
+  <div
+  >
+
     <div class="card">
-      <header class="card-header">
-        <p class="card-header-title has-text-grey">
-          {{ title }}
-        </p>
-      </header>
-      <div class="card-content">
-        <div class="content has-text-centered">
-          <b-icon
-            :icon="icon"
-            size="is-large"
-            type="is-primary"
-          />
-        </div>
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img :src="img" alt="Placeholder image">
+        </figure>
       </div>
-      <footer class="card-footer">
-        <div class="card-footer-item">
-          <span>
-            <slot />
-          </span>
-        </div>
-      </footer>
+      <div class="card-content">
+        <p class="title is-4">{{ title }}</p>
+        <p class="subtitle is-6 has-text-grey">Posted on: <time :datetime="date">{{ datetime_str }}</time></p>
+        <p><slot></slot></p>
+      </div>
     </div>
   </div>
 </template>
@@ -31,12 +22,22 @@ export default {
   props: {
     title: {
       type: String,
-      required: true
+      required: true,
     },
-    icon: {
+    date: {
       type: String,
-      required: true
-    }
-  }
-}
+      required: true,
+    },
+    img: {
+      type: String,
+    },
+  },
+  computed: {
+    datetime_str: function () {
+      // Adding time fixes a weird JS date/time issue that makes it possibly a day off
+      var date = new Date(this.date + "T00:00:00");
+      return date.toDateString();
+    },
+  },
+};
 </script>
