@@ -30,9 +30,8 @@
 
     <footer class="footer">
       <div class="content has-text-centered">
-        <p>
-          <strong>Robot Scavenger Hunt</strong> by <a href="https://juliaebert.com">Julia Ebert</a>, a division of Teebert Industries
-        </p>
+        <p><strong>Robot Scavenger Hunt</strong> by <a href="https://juliaebert.com">Julia Ebert</a>, a division of Teebert Industries.</p>
+        <p>Header image source: <a href="https://unsplash.com/photos/MECKPoKJYjM">Arseny Tugolev, Unsplash</a></p>
         <p>&copy; 2021</p>
       </div>
     </footer>
