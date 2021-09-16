@@ -2,6 +2,19 @@
   <section class="section">
     <h2 class="title is-2 has-text-centered">Meet the Robots</h2>
     <div class="card-container">
+
+      <card
+        title="Hoverbot"
+        date="2021-09-16"
+        img="/robots/hoverbot.svg"
+        >Gravity is for plebs. All the cool kids hover.</card>
+
+      <card
+        title="The Gymnast"
+        date="2021-09-16"
+        img="/robots/twirly.svg"
+        >It says it can beat Simone Biles, but I think it's lying.</card>
+
       <card
         title="Not Armando"
         date="2021-06-22"
@@ -12,7 +25,7 @@
         title="WALL⋅E"
         date="2021-06-22"
         img="/robots/wall-e.svg"
-      >Looking for Eve, or looking for your trash.</card>
+      >Looking for Eve. And also your trash.</card>
 
       <card
         title="Just a Drone"
@@ -43,18 +56,6 @@
         date="2021-08-09"
         img="/robots/alien.svg"
         >I AM AN ALIEN. I AM DEFINITELY NOT A ROBOT.</card>
-
-      <card
-        title="The Gymnast"
-        date="2021-08-09"
-        img="/robots/twirly.svg"
-        >It says it can beat Simone Biles, but I think it's lying.</card>
-
-      <card
-        title="Hoverbot"
-        date="2021-08-09"
-        img="/robots/hoverbot.svg"
-        >Gravity is for plebs. All the cool kids hover.</card>
 
       <card
         title="Pokebot"

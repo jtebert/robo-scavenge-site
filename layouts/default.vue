@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero is-primary is-medium">
+    <section class="hero is-primary is-large">
       <div class="hero-body has-text-centered">
         <p class="title is-1">
           Robot Scavenger Hunt
@@ -16,7 +16,7 @@
         <section class="section">
             <p class="title is-2 has-text-centered">The Challenge</p>
 
-            <p>See if you can find all of the robot decals hidden around the new Science and Engineering Complex. Unsurprisingly, they've concentrated themselves around the robotics labs on the fourth floor. New ones may be added soon!</p>
+            <p>See if you can find all of the robot decals hidden around the new Science and Engineering Complex. Unsurprisingly, they've concentrated themselves around the robotics labs on the fourth floor. New ones may appear soon!</p>
 
             <p>Why do you want to find them all before time runs out? Who knows! No, seriously, I have no idea. Someone please tell me.</p>
         </section>
